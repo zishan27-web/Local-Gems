@@ -25,7 +25,7 @@ export default function GemsClientPage() {
   const [deletingId, setDeletingId] = useState(null);
   const [selectedGem, setSelectedGem] = useState(null);
   const searchParams = useSearchParams();
-  const [isCopied, setIsCopied] = useState(false);
+//   const [isCopied, setIsCopied] = useState(false);
 
   const router = useRouter();
 

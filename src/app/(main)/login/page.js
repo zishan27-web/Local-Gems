@@ -28,7 +28,7 @@ export default function RegisterPage() {
         setIsLoading(false);
 
         if (result.error) {
-            toast.error(result.error || 'Invalid credentials');
+            toast.error('Invalid credentials');
         }else{
             // toast.success('Logged in successfully!');
             router.push('/gems?login=success');
