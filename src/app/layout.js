@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="bg-black">
       <body suppressHydrationWarning={true}
-        className={`${geistSans.variable} ${geistMono.variable} antialiased m-0 p-0 bg-zinc-50 text-stone-800 relative`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased m-0 p-0 text-white relative`}
       >
         <div className="fixed inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
           <Providers>
