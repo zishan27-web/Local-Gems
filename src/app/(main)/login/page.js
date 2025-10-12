@@ -19,19 +19,19 @@ export default function RegisterPage() {
         setIsLoading(true);
 
         const result = await signIn('credentials', {
-            redirect: true,
+            redirect: false,
             email: email,
             password: password,
-            callbackUrl: '/gems'
+            // callbackUrl: '/gems'
         });
 
         setIsLoading(false);
 
         if (result.error) {
-            toast.error(result.error);
+            toast.error(result.error || 'Invalid credentials');
         }else{
-            toast.success('Logged in successfully!');
-            // router.push('/gems?login=success');
+            // toast.success('Logged in successfully!');
+            router.push('/gems?login=success');
         }
     };
 

@@ -27,7 +27,8 @@ export const authOptions = ({
                 });
 
                 if (!user) {
-                    throw new Error("User not found");
+                    // throw new Error("User not found");
+                    return null;
                 }
 
                 const passwordMatch = bcrypt.compare(
@@ -36,7 +37,8 @@ export const authOptions = ({
                 );
 
                 if (!passwordMatch) {
-                    throw new Error("Incorrect password");
+                    // throw new Error("Incorrect password");
+                    return null;
                 }
 
                 return {
