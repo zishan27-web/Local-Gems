@@ -21,7 +21,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-black">
       <body suppressHydrationWarning={true}
         className={`${geistSans.variable} ${geistMono.variable} antialiased m-0 p-0 bg-zinc-50 text-stone-800 relative`}
       >
