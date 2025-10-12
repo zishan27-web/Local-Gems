@@ -18,7 +18,7 @@ export default function Navbar() {
                         status === 'loading' ? (
                             <p>Loading...</p>
                         ) : session ? (
-                            <div className="flex justify-center items-center gap-4">
+                            <div className="flex justify-center items-center gap-3">
                                 <div className="flex items-center gap-1 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-2.5 py-1 text-center hover:cursor-pointer hover:scale-105 transition duration-300 ease-in-out">
                                     <img className="w-6 h-6" src="/user.png" alt="" />
                                     <p className="rounded-4xl text-black">
@@ -30,7 +30,7 @@ export default function Navbar() {
                                 </button>
                             </div>
                         ) : (
-                            <div className="flex justify-center items-center gap-4">
+                            <div className="flex justify-center items-center gap-3">
                                 <Link href='/register' className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-3 py-1.5 text-center hover:cursor-pointer hover:scale-105 transition duration-300 ease-in-out">
                                     Sign Up
                                 </Link>
