@@ -12,7 +12,7 @@ export default function Footer() {
         <p>
           <span>Created by </span>
           <a 
-            href="https://github.com/your-username"
+            href="https://github.com/zishan27-web"
             target="_blank" 
             rel="noopener noreferrer" 
             className="font-medium text-white hover:underline"
@@ -21,7 +21,7 @@ export default function Footer() {
           </a>
           <span> | </span>
           <a 
-            href="https://github.com/your-username/local-gems"
+            href="https://github.com/zishan27-web/Local-Gems.git"
             target="_blank" 
             rel="noopener noreferrer" 
             className="font-medium text-white hover:underline"
